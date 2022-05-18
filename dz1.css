@@ -1,0 +1,253 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+
+h3{
+    text-align: center;
+
+}
+
+.dz1 li:hover{
+    color: red;
+}
+.dz1 li{
+    float: left;
+    margin-right: 30px;
+}
+
+.dz2{
+    width: 200px;
+    height: 200px;
+    color: #0E1116;
+    list-style-type: none;
+}
+
+.dz2 li:nth-child(2n+1){
+    background-color: #5DB7DE;
+}
+.dz2 li:nth-child(even){
+    background-color: #0D5D56;
+}
+.dz2 li:nth-child(7){
+    background-color: #88292F;
+}
+.dz3{
+    list-style-type: none;
+}
+.dz3 li::before{
+    content: "\2192";
+}
+.dz4{
+    width: 100vhs;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/1007836/pexels-photo-1007836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1366'), linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.dz5{
+    width: 400px;
+    height: 400px;
+    background-color: #424242;
+    position: relative;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 300px;
+}
+.pink{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 150px;
+}
+.orange{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.darkblue{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    position: absolute;
+    top: 300px;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.button {
+    background-color: violet;
+}
+.dz6 {
+    position: relative;
+    display: inline-block;
+}
+.content {
+    display: none;
+    background-color: violet;
+}
+.content a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.dz6:hover .content {
+    display: block;
+}
+.dz7{
+    border: 1px solid tomato;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+}
+.dz7 img{
+    height: 50px;
+    width: 50px;
+}
+.dz8{
+    position: relative;
+    min-height: 600px;
+    width: 400px;
+    border: 2px solid gray;
+    margin-left: 550px;
+
+}
+.dz8 img{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+.dz8:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.dz8 img:hover{
+    transition-duration: 0.2s;
+    transform: rotateZ(5deg);
+}
+.dz8 h4:hover{
+    transform: scale(115%);
+    transition-duration: 0.2s;
+    color: #0D5D56;
+    transition-duration: 0.3s;
+
+}
+.dz8 h4{
+    position: relative;
+    text-align: center;
+    top: 370px;
+}
+.dz8 p{
+    position: relative;
+    text-align: center;
+    top: 370px;
+}
+.dz8 button{
+    top: 370px;
+    position: relative;
+    text-align: center;
+    left: 175px;
+} 
+.dz8 button:hover{
+    background-color: #0D5D56;
+    font-size: 100%;
+    transition-duration: 0.2s;
+
+}
+.dz9{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+    display: block;
+}
+#name{
+    position: absolute;
+}
+#email{
+    top: 100px;
+    position: absolute;
+}
+#message{
+    height: 10em;
+    top: 200px;
+    position: absolute;
+}
+.dz9 input{
+    width: 400px;
+    height: 5em;
+}
+.dz9 button{
+    position: absolute;
+    top: 350px;
+    left: 170px;
+    background-color: orange;
+    font-size: 20px;
+}
+.dz10x{
+    margin-top: 500px;
+}
+.dz2x{
+    margin-top: 100px;
+}
+.dz10{
+    width: 500px;
+    min-height: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+.dz10 td{
+    border: 1px solid black;
+    text-align: center;
+}
+.dz10 th{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.dz10 caption{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
